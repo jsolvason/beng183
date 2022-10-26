@@ -10,21 +10,15 @@ http://chagall.med.cornell.edu/RNASEQcourse/Slides_July2019_Day2.pdf
 More info here: [Alignment-free sequence comparison: benefits, applications, and tools](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1319-7)
 
 ## 3.Get raw data and reference sequences ready
-### 3.1 Raw data cleaning and preprocessing
+### 3.1 Raw data downloading
 We will use RNAseq data from [FlyAtlas2 database](http://flyatlas.gla.ac.uk/FlyAtlas2/index.html), which collects hundreds of RNAseq data of drosophila melanogaster. You can search by gene, category or tissue.
 
-The raw RNAseq data can be found on the [resource page](https://github.com/Irenexzwen/BIOE183/blob/master/README.md) for the homework tutorials. If you'd like, you can analyze and clean the raw data using the techniques you learned from Tutorial 2.
+The raw RNAseq data can be found on the [resource page](https://github.com/jsolvason/beng183/blob/master/readme.md) for the homework tutorials.
 
-Otherwise, we have conveniently provided the cleaned data for you here:
-- [[female_head1_R1_clean]](http://sysbio.ucsd.edu/public/wenxingzhao/CourseFall2019/DS_raw/F_head1_clean_R1.fq),[[female_head1_R2_clean]](http://sysbio.ucsd.edu/public/wenxingzhao/CourseFall2019/DS_raw/F_head1_clean_R2.fq)
-                   
-- [[female_head2_R1_clean]](http://sysbio.ucsd.edu/public/wenxingzhao/CourseFall2019/DS_raw/F_head2_clean_R1.fq),[[female_head2_R2_clean]](http://sysbio.ucsd.edu/public/wenxingzhao/CourseFall2019/DS_raw/F_head2_clean_R2.fq)
+### 3.2 Raw data cleaning and preprocessing
+The next step is to trim and clean the raw data using the techniques you learned from [Tutorial 2](https://github.com/Irenexzwen/BIOE183/blob/master/Tutorial2_RawData.md) or Discussion session 3 (See Canvas for more details).
 
-- [[female_midgut1_R1_clean]](http://sysbio.ucsd.edu/public/wenxingzhao/CourseFall2019/DS_raw/F_midgut1_clean_R1.fq),[[female_midgut1_R2_clean]](http://sysbio.ucsd.edu/public/wenxingzhao/CourseFall2019/DS_raw/F_midgut1_clean_R2.fq)
-                     
-- [[female_midgut2_R1_clean]](http://sysbio.ucsd.edu/public/wenxingzhao/CourseFall2019/DS_raw/F_midgut2_clean_R1.fq),[[female_midgut2_R2_clean]](http://sysbio.ucsd.edu/public/wenxingzhao/CourseFall2019/DS_raw/F_midgut2_clean_R2.fq)
-
-### 3.2 Reference sequences
+### 3.3 Reference sequences
 You could download reference genome / transcriptome / gtf files of your familiar species from [ENSEMBLE](https://uswest.ensembl.org/info/data/ftp/index.html).
 If you are analyzing Human or Mouse, you could also try Genecode.
 
@@ -68,7 +62,7 @@ STAR --runThreadN 10 --runMode genomeGenerate \
 
 `--sjdbOverhang` Usually equals read length minus 1.  
 
-It might take some time to finish the alignment, and the total Memory usage peak at 10g during this process. If this memory requirement is beyond your computer, you could download the pre-computed index from our resource page. 
+It might take some time to finish the alignment, and the total Memory usage peak at 10g during this process. If this memory requirement is beyond your computer, you could download the [pre-computed index](https://github.com/jsolvason/beng183/blob/master/readme.md) from our resource page. 
 
 After we build the index, we're gonna map our reads towards the genome.
 ```Shell

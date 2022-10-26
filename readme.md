@@ -1,20 +1,19 @@
 # BENG183
 
 # Acknowledgements: 
-This homework and included tutorials is based on https://github.com/Irenexzwen. Big thanks to her! Check out her website http://wenxingzhao.com/
+This homework and included tutorials is based on https://github.com/Irenexzwen. Big thanks to her!
 
 ## Homework notes:
 1) [Working environment 
-setup](https://github.com/Irenexzwen/BIOE183/blob/master/Tutorial1_Preparation.md)
+setup](https://github.com/jsolvason/beng183/blob/master/Tutorial1_Preparation.md)
 2) [Raw Data QC and 
-Cleaning](https://github.com/Irenexzwen/BIOE183/blob/master/Tutorial2_RawData.md)
-3) **Needs changing** [Mapping and 
-quantification](https://github.com/Irenexzwen/BIOE183/blob/master/Tutorial3_Mapping_and_qualification.md)
+Cleaning](https://github.com/jsolvason/beng183/blob/master/Tutorial2_RawData.md)
+3) [Mapping and 
+quantification](https://github.com/jsolvason/beng183/blob/master/Tutorial3_Mapping_and_qualification.md)
 4) [Differential 
-analysis](https://github.com/Irenexzwen/BIOE183/blob/master/Tutorial4_DE.md)
+analysis](https://github.com/jsolvason/beng183/blob/master/Tutorial4_DE.md)
 
 ## Raw Sample files:
-
 
 Download the fastq files of the following samples below.
 
@@ -42,13 +41,16 @@ We usually download the reference data from
 [ensemble](https://uswest.ensembl.org/info/data/ftp/index.html). You 
 search "drosophila" and choose DNA / cDNA / gtf, then you use a `wget` to 
 download.
-- drosophila genome: 
+- drosophila genome:
+
 ftp://ftp.ensembl.org/pub/release-97/fasta/drosophila_melanogaster/dna/Drosophila_melanogaster.BDGP6.22.dna.toplevel.fa.gz
 
 - drosophila transcriptome: 
+
 ftp://ftp.ensembl.org/pub/release-97/fasta/drosophila_melanogaster/cdna/Drosophila_melanogaster.BDGP6.22.cdna.all.fa.gz
 
 - drosophila gtf: 
+
 ftp://ftp.ensembl.org/pub/release-97/gtf/drosophila_melanogaster/Drosophila_melanogaster.BDGP6.22.97.chr.gtf.gz
 
 ## Index files
