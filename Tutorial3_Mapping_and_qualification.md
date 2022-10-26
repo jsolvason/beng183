@@ -16,7 +16,7 @@ We will use RNAseq data from [FlyAtlas2 database](http://flyatlas.gla.ac.uk/FlyA
 The raw RNAseq data can be found on the [resource page](https://github.com/jsolvason/beng183/blob/master/readme.md) for the homework tutorials.
 
 ### 3.2 Raw data cleaning and preprocessing
-The next step is to trim and clean the raw data using the techniques you learned from [Tutorial 2](https://github.com/Irenexzwen/BIOE183/blob/master/Tutorial2_RawData.md) or Discussion session 3 (See Canvas for more details).
+The next step is to trim and clean the raw data using the techniques you learned from [Tutorial 2](https://github.com/Irenexzwen/BIOE183/blob/master/Tutorial2_RawData.md) or Discussion session 3 (See [Canvas](https://canvas.ucsd.edu) Files and Media Gallery for more details).
 
 ### 3.3 Reference sequences
 You could download reference genome / transcriptome / gtf files of your familiar species from [ENSEMBLE](https://uswest.ensembl.org/info/data/ftp/index.html).

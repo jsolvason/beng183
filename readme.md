@@ -1,6 +1,6 @@
-# BENG183
+# BENG183 Homework 3
 
-# Acknowledgements: 
+## Acknowledgements: 
 This homework and included tutorials is based on https://github.com/Irenexzwen. Big thanks to her!
 
 ## Homework notes:
