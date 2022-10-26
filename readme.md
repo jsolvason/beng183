@@ -25,10 +25,10 @@ hundreds of RNAseq data of drosophila melanogaster. You can search by
 gene, category or tissue. Here we downloaded 4 samples (female_head x 2, 
 female_midgut x 2).
 
-- 
+- Female Head
 [[female_head1_R1_raw]](https://drive.google.com/file/d/1T6QDIcvY5qC_E488IjPZEkhvlukgXQbe/view?usp=sharing),[[female_head1_R2_raw]](https://drive.google.com/file/d/1RV6YPV9_KAUr9h-rEdOVRJHPuCV5ozT_/view?usp=sharing)
 
-- 
+- Female Midgut
 [[female_midgut1_R1_raw]](https://drive.google.com/file/d/124XZXIhu8Rm8CsvNYx87LVVgDl6UWOt3/view?usp=sharing),[[female_midgut1_R2_raw]](https://drive.google.com/file/d/11rBcLQ-HrYlV3oGgRklkD8-yAX3cCLqY/view?usp=sharing)
 
 
@@ -55,15 +55,11 @@ ftp://ftp.ensembl.org/pub/release-97/gtf/drosophila_melanogaster/Drosophila_mela
 Pre-computed index files: [download 
 here](https://drive.google.com/open?id=1CT-iZ2PzPwWa44KxhjYsv4pD5GnnJStg)
 
-## Mapping .bam file
-
-Follow tutorial 3 to produce bam files.
-
 ## FeatureCounts Count table
 
 Follow tutorial 3 to produce feature counts table.
 
-You can download feature counts for all samples [here]('https://drive.google.com/file/d/1E_QnRJ_b98H_hINhukBXdqxd0Q2Qcqu4/view?usp=sharing')
+You can download feature counts for all samples [here](https://drive.google.com/file/d/1E_QnRJ_b98H_hINhukBXdqxd0Q2Qcqu4/view?usp=sharing)
 
 ## Resources:
 #### Tutorials:
