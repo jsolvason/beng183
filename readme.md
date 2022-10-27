@@ -34,7 +34,7 @@ female_midgut x 2).
 
 ## Clean Data 
 
-Follow tutorail 2 to clean reads in fastq files.
+Follow tutorial 2 to clean reads in fastq files.
 
 ## Reference genome.fa / transcriptome.fa / gtf
 We usually download the reference data from 
