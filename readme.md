@@ -1,7 +1,7 @@
 # BENG183 Homework 3
 
 ## Acknowledgements: 
-This homework and included tutorials is based on previous work by [Xingzhao Wen](https://github.com/Irenexzwen). Big thanks to her!
+This homework and included tutorials are based on previous work by [Xingzhao Wen](https://github.com/Irenexzwen). Big thanks to her!
 
 ## Homework notes:
 1) [Working environment 
