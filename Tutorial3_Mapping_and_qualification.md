@@ -66,7 +66,7 @@ It might take some time to finish the alignment, and the total Memory usage peak
 
 After we build the index, we're gonna map our reads towards the genome.
 ```Shell
-for i in F_head1 F_head2 F_midgut1 F_midgut2
+for i in F_head1 F_midgut1
 do
 printf "STAR 
         --runThreadN 20 
@@ -84,7 +84,7 @@ This will give you two important results:
 #### Quantify gene expression level using FeatureCount
 Once you get the bam file (which records each reads align to which specific locations of the genome), you may want to summarize reads abundance for each gene.   
 ```Shell
-for i in F_head1 F_head2 F_midgut1 F_midgut2
+for i in F_head1 F_midgut1
 do
         printf "
         featureCounts -p -a                                 
