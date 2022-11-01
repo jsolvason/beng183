@@ -44,7 +44,7 @@ conda install star
 STAR -h 
 
 # build index
-STAR --runThreadN 16 --runMode genomeGenerate --genomeDir genome_STARidx/ --genomeFastaFiles Drosophila_melanogaster.BDGP6.22.dna.toplevel.fa --sjdbGTFfile Drosophila_melanogaster.BDGP6.22.97.chr.gtf --sjdbOverhang 100                                            
+STAR --runThreadN 16 --runMode genomeGenerate --genomeDir genome_STARidx/ --genomeFastaFiles Drosophila_melanogaster.BDGP6.22.dna.toplevel.fa --sjdbGTFfile Drosophila_melanogaster.BDGP6.22.97.chr.gtf --sjdbOverhang 100
 ```
 (Change the file paths to reflect where the respective files are located on your computer.)
 
